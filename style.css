@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+div{
+  display: block;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+
+body{
+  color: white;
+  background-color: #2b2922;
+}
+
+nav.navbar{
+  /* border: 2px solid white; */
+  display: flex;
+  margin: 50px 100px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar div:first-child{
+  position: absolute;
+  left: 100px;
+}
+
+img[src="./assets/white-logo.png"]{
+  height: 40px;
+}
+
+ul.list{
+  display: flex;
+}
+
+li.list-item{
+  list-style: none;
+  margin-right: 40px;
+}
+
+button.button-small{
+  padding: 7px 13px;
+  border-radius: 10px;
+  outline: #A08F36;
+  border: 2px solid #A08F36;
+  color: #A08F36;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+
+/* ------------------------------ */
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+
+div.hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px 100px;
+}
+
+h1.hero-heading{
+  font-size: 60px;
+  width: 45%;
+}
+
+p.hero-body{
+  font-size: 15px;
+  width: 35%;
+}
+
+/* ------------------------------ */
+
+/* --- Background Image Section --- */
+
+.bg-image{
+  background-image: url('./assets/justice.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  background-color: transparent;
+}
+
+/* Large Buttons */
+
+.bottom{
+  height: 120px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* gap: 50px; */
+}
+
+.btn1{
+  width: 120px;
+  height: 120px;
+  background-color: #5e5d57;
+  
+  padding: 37px;
+}
+
+.btn2{
+  width: 120px;
+  height: 120px;
+  background-color: #A08F36;
+  padding: 37px;
+}
+
+.button-large-prev{
+  color: #dfbc0f ;
+  border: 2px solid #dfbc0f;
+  border-radius: 50%;
+  font-size: 30px;
+  text-align: center;
+  padding: 2px;
+}
+
+.button-large-next{
+  border: 2px solid white;
+  border-radius: 50%;
+  font-size: 30px;
+  text-align: center;
+  padding: 2px;
+}
+
